@@ -12,7 +12,7 @@ browser.set_handle_robots(False)
 browser.set_debug_redirects(False)
 browser.set_debug_http(False)
 
-EXT_LINK_TYPE_ID = 358  # Hard coded to type id "358" i.e. Wikidata
+EXT_LINK_TYPE_ID = "358"  # Hard coded to type id "358" i.e. Wikidata
 
 area_template = {
     "name": None,
@@ -21,8 +21,10 @@ area_template = {
     "iso_3166_1": None,
     "iso_3166_2": None,
     "iso_3166_3": None,
-    "ext_links": None,
-    "ext_link_type_id": EXT_LINK_TYPE_ID,
+    "external_links": {
+        "text": [],
+        "type": [],
+    },
 }
 
 area = {
@@ -31,12 +33,18 @@ area = {
     "type": "3",
     "iso_3166_1": None,
     "iso_3166_2": None,
-    "iso_3166_3": ["XXXL", "XXXM"],
-    "external_links": [
-        "https://www.wikidata.org/wiki/Q1493",
-        "https://www.wikidata.org/wiki/Q1494",
-    ],
-    "external_link_type_id": [EXT_LINK_TYPE_ID, EXT_LINK_TYPE_ID],
+    "iso_3166_3": ["XXXN", "XXXO"],
+    "external_links": {
+        "text": [
+            "https://www.wikidata.org/wiki/Q152",
+            "https://www.wikidata.org/wiki/Q1494",
+        ],
+        "type": [
+            EXT_LINK_TYPE_ID,
+            EXT_LINK_TYPE_ID,
+        ],
+    },
+    "something": None
 }
 
 edit_note = "Tests new area with name, type, disambiguation, edit note."
