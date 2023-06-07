@@ -28,23 +28,23 @@ area_template = {
 }
 
 area = {
-    "name": "test_area_name_type_note_iso_list_ext_link_list",
+    "name": "test_area_name_type_note_iso_list_ext_link_list with updated method",
     "disambiguation": "disambiguation_test",
     "type": "3",
     "iso_3166_1": None,
     "iso_3166_2": None,
-    "iso_3166_3": ["XXXN", "XXXO"],
-    "external_links": {
-        "text": [
-            "https://www.wikidata.org/wiki/Q152",
-            "https://www.wikidata.org/wiki/Q1494",
-        ],
-        "type": [
-            EXT_LINK_TYPE_ID,
-            EXT_LINK_TYPE_ID,
-        ],
-    },
-    "something": None
+    "iso_3166_3": ["XXAC", "XXAD"],
+    "url": [
+        {
+            "text": "https://www.wikidata.org/wiki/Q152",
+            "link_type_id": EXT_LINK_TYPE_ID,
+        },
+        {
+            "text": "https://www.wikidata.org/wiki/Q1494",
+            "link_type_id": EXT_LINK_TYPE_ID,
+        },
+    ],
+    "something": None,
 }
 
 edit_note = "Tests new area with name, type, disambiguation, edit note."
