@@ -32,8 +32,8 @@ area = {
     "disambiguation": "disambiguation_test",
     "type": "3",
     "iso_3166_1": None,
-    "iso_3166_2": None,
-    "iso_3166_3": ["XXAC", "XXAD"],
+    "iso_3166_2": ["ES-X"],
+    "iso_3166_3": ["XXAI", "XXAJ"],
     "url": [
         {
             "text": "https://www.wikidata.org/wiki/Q152",
