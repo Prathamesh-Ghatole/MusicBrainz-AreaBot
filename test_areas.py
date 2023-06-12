@@ -28,12 +28,12 @@ area_template = {
 }
 
 area = {
-    "name": "test_area_name_type_note_iso_list_ext_link_list with updated method",
+    "name": "moving create_payload() out of add_area()",
     "disambiguation": "disambiguation_test",
     "type": "3",
     "iso_3166_1": None,
-    "iso_3166_2": ["ES-X"],
-    "iso_3166_3": ["XXAI", "XXAJ"],
+    "iso_3166_2": None,
+    "iso_3166_3": ["XXAN"],
     "url": [
         {
             "text": "https://www.wikidata.org/wiki/Q152",
@@ -44,7 +44,6 @@ area = {
             "link_type_id": EXT_LINK_TYPE_ID,
         },
     ],
-    "something": None,
 }
 
 edit_note = "Tests new area with name, type, disambiguation, edit note."
