@@ -28,12 +28,12 @@ area_template = {
 }
 
 area = {
-    "name": "moving create_payload() out of add_area()",
-    "disambiguation": "disambiguation_test",
+    "name": "updating add_area() to remove 'data_template'",
+    "comment": "disambiguation_test",
     "type": "3",
     "iso_3166_1": None,
     "iso_3166_2": None,
-    "iso_3166_3": ["XXAN"],
+    "iso_3166_3": ["XXAP"],
     "url": [
         {
             "text": "https://www.wikidata.org/wiki/Q152",
